@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A27581EB-DAAB-2132-6748-F543FA440969" name="Director">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>76D809A8-FA8A-56F7-F59F-B95A1071741C</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUT" id="4654061C-BE6D-3646-EB50-C82865613401">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>FBBD409B-7BB4-6928-911F-F8402B5D8885</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="7866330C-C328-A25E-2B30-E0C9440811A3">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>19645A4B-023D-6EFA-87DC-06626C7D4EAA</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_incio_cargo" id="A6D79DAB-C12A-2FDA-90ED-DFA0802E9FF1">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>4C99D227-70A3-A7C3-441E-2AE7DC623B2F</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_fin_cargo" id="39F27C30-1754-056A-1E1D-AA5A9276E9B8">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>61778F9A-29F2-14E5-E58A-11EA0D72A271</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Academia" id="55B01E6B-A890-4666-B8A7-C4329B5BC97C">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>7ADCE143-8D77-3A56-3F67-CFAF9904941B</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Cuenta_bancaria" id="844C644D-F2C5-4EEB-BD9F-4E06EBEF734E">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>DEF64191-6D36-C76F-99B2-D786CB1ECFFE</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB422F33-BE8A-4041-ECCE-0909550D55CE" referredColumn="2A574D7D-E799-5D41-1F42-B0644381CBC2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C582E84-89A8-E3D3-D5B6-7C917F1BB687" name="Director_PK">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>3FAA66AB-91FF-EF6F-3FF1-D4D3D5B1436C</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4654061C-BE6D-3646-EB50-C82865613401"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B735E7CF-B087-F367-7C02-1D4D5E42B191" name="Director_Cuenta_bancaria_FK">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 15:05:28 UTC</createdTime>
+<ownerDesignName>eft</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="844C644D-F2C5-4EEB-BD9F-4E06EBEF734E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

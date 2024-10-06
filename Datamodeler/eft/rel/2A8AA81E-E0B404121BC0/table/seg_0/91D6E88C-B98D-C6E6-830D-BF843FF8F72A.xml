@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91D6E88C-B98D-C6E6-830D-BF843FF8F72A" name="Proyecto">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>1FBE8E44-27D7-7312-C0ED-72B686D766BC</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Proyecto" id="E1B34372-0D11-B851-2AEA-22B53E0DC297">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>AF5BBA1B-EBA9-EDC8-D7E9-04758818C5CD</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_proyecto" id="B30418B2-79EF-59BE-ECEA-E4A3E472E644">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>CA004854-2BF0-D54C-B5E7-2CE5660016B6</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_inicio" id="20E0C284-66C6-5F0E-3C52-652FE0A1A706">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>95B98CB8-BAFB-1E44-04CC-2BACB42DA952</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_termino" id="335104BA-DBA2-F16C-D045-3451AD73D958">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>66A55852-F1EB-AFEC-218D-A88CE2987669</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Monto_financiamiento" id="4BFEE061-3DA3-8384-B45C-F4F56B79D861">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>DB9C79AD-9ED7-1986-F763-750ADC623566</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57FB57D1-486F-7B04-8512-5694953D3C70" name="Proyecto_PK">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>8932641B-D10D-A36E-C198-05F968955612</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1B34372-0D11-B851-2AEA-22B53E0DC297"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

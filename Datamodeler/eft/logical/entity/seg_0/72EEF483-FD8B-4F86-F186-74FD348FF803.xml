@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72EEF483-FD8B-4F86-F186-74FD348FF803" name="Academia">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>5065F2BF-6866-2B5F-3C05-F8F198C573A7</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RUT" id="AA046039-F5BD-F51B-87A5-B9B36DF456BC">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>764F7641-8CDC-DFCB-9815-4ADAFF57E060</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="4AD6C315-C192-DA86-1D55-510581B869F0">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>79B43D19-C2DB-93E8-D4DD-F6006E9DE77E</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo academia" id="DC601B9A-A723-8E9F-CA79-62A31AB26270">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>0C89AD39-72C0-E029-D3F5-0E1BC822507C</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="A02E2CF7-7ED6-C69C-3748-BE58AEC7A18B">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>62276E71-94F3-27B5-394F-F1281C542ABC</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="73CC4184-2046-5596-C2A6-6CE52CC64E37">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>D5AA4C3B-188F-BB3A-CE7F-7A81CC642D29</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correo electronico" id="69909302-F162-55F2-7549-ABFCC484438E">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>AFAE0F78-0BCD-37B1-29CF-77D0C5C026E3</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Municipalidad" id="49BA8BD2-C951-C2CE-345E-9D09D60A65E3">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>5F0E90F6-C583-8611-3410-647E256E372A</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<referedAttribute>1ACF2FFB-346A-AC0B-64B3-463846492589</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Director RUT" id="102D7187-0285-DEC7-E446-B8F1407739ED">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>4B337374-6F2A-A4AE-4414-39941D0AD6FC</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<referedAttribute>AF24CFB3-457D-14D1-DE0E-F24BDA2D10AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="588EEF51-512E-57E8-2BC9-EF5B863ECCCA" name="Academia PK">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>8F3BF3C2-9077-82C5-F637-8F11862AAFB1</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AA046039-F5BD-F51B-87A5-B9B36DF456BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

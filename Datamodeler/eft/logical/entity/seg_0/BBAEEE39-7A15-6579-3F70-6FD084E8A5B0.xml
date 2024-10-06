@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBAEEE39-7A15-6579-3F70-6FD084E8A5B0" name="Director">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>A27581EB-DAAB-2132-6748-F543FA440969</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RUT" id="AF24CFB3-457D-14D1-DE0E-F24BDA2D10AD">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>4654061C-BE6D-3646-EB50-C82865613401</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="F2080E8F-F71E-C0C5-C56A-826F0A4601CA">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>7866330C-C328-A25E-2B30-E0C9440811A3</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha incio cargo" id="25F75E80-39F1-FE5D-AFD9-AF9329F76569">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>A6D79DAB-C12A-2FDA-90ED-DFA0802E9FF1</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha fin cargo" id="73D88AEC-DE23-3478-81D7-E0FFCD5A1299">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>39F27C30-1754-056A-1E1D-AA5A9276E9B8</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Academia" id="D9B616BA-FE85-A3D3-5FBF-3978E450CC39">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>55B01E6B-A890-4666-B8A7-C4329B5BC97C</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Cuenta bancaria" id="D903BDA6-5F55-8389-3D1E-32B25C5E21D1">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>F8FDE64E-7653-ECFF-B3A9-B7C5A23A65DB</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<referedAttribute>A575231E-68C2-F0C0-BBB9-57A796922207</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6B75216-0566-2329-B004-14020BD45145" name="Director PK">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>8C582E84-89A8-E3D3-D5B6-7C917F1BB687</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF24CFB3-457D-14D1-DE0E-F24BDA2D10AD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

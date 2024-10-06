@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55AC1A4D-FF7B-6A7E-FA96-284B93351456" name="Municipalidad">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>EDE8201E-D0E4-EA49-DA6C-528879209B9A</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Municipalidad" id="1ACF2FFB-346A-AC0B-64B3-463846492589">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>AB4B5C30-D997-0A05-7824-9FC4AE2E14C6</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="CA8F04B1-B2D2-74E9-8D02-284D6F2B59FA">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>91ED80FE-1D2D-1938-769B-0ED49A656115</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="04F16020-A583-2F67-D606-CB8950CD20D8">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>D3DFB989-B90B-5DC3-060B-BC3563E157BE</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Region" id="2DF2CDA2-FA8F-42D3-FF3E-3915CC7B9D3F">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>7CA1E6EB-AEEA-1792-69C4-E055EBB667D9</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA8F552A-EE1F-F61C-A1AD-AED09ADC2DC2" name="Municipalidad PK">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>DA6405ED-7AC2-882D-E52A-A5A9199F1F80</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1ACF2FFB-346A-AC0B-64B3-463846492589</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

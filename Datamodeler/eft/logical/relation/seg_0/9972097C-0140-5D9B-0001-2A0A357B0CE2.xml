@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Turno_profesores_Academia_FK" directorySegmentName="seg_0" id="9972097C-0140-5D9B-0001-2A0A357B0CE2">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>F5AD7730-EA20-7846-B33F-16A054BC2A68</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<sourcePk>588EEF51-512E-57E8-2BC9-EF5B863ECCCA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>72EEF483-FD8B-4F86-F186-74FD348FF803</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>35765884-238A-4513-7844-B77154BF4B49</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

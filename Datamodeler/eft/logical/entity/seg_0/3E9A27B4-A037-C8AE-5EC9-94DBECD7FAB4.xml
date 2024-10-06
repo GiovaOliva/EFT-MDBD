@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E9A27B4-A037-C8AE-5EC9-94DBECD7FAB4" name="Cuenta bancaria">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>BF737884-C581-E29B-450F-153A08136D36</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID cuenta bancaria" id="A575231E-68C2-F0C0-BBB9-57A796922207">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>2A574D7D-E799-5D41-1F42-B0644381CBC2</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero cuenta" id="D5553B29-E319-720A-B333-2FBCAEE96B0C">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>91DFF895-8AC0-CC09-3641-6273756E7D16</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo cuenta" id="3ED44170-6E81-C794-6C07-33ED167E9E05">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>A320D3FA-F108-4CE2-82DB-669A0A8B91B7</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Titular" id="EB8C6E0B-348C-98B5-D2D6-B01EA0D687F1">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>B15F52FF-A907-66B4-3AF1-F086162CD7F2</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Banco" id="A2BC1BFD-E772-7E5C-EB09-06AD1A386546">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>DCC129F3-F65F-55AD-89FC-FA556D7BC554</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="74168906-960D-1922-2DA3-19E19FA833D0" name="Cuenta bancaria PK">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>0B5CFE20-2BD4-04B8-C809-45AD16732854</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A575231E-68C2-F0C0-BBB9-57A796922207</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

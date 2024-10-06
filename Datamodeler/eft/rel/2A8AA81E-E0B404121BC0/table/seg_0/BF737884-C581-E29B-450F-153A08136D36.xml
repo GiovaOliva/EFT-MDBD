@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF737884-C581-E29B-450F-153A08136D36" name="Cuenta_bancaria">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>DA546386-D446-D4C0-DBB5-877F5F00E58C</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_cuenta_bancaria" id="2A574D7D-E799-5D41-1F42-B0644381CBC2">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>F05FA311-2154-A8F0-D54E-3009488806E5</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero_cuenta" id="91DFF895-8AC0-CC09-3641-6273756E7D16">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>85D69DE5-4716-36C1-5E0F-8FFE3709AA35</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_cuenta" id="A320D3FA-F108-4CE2-82DB-669A0A8B91B7">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>379D7435-4E5B-C253-45DD-E5C83F7B6096</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Titular" id="B15F52FF-A907-66B4-3AF1-F086162CD7F2">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>A490C18A-78C2-13E0-8BFD-68607E512809</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Banco" id="DCC129F3-F65F-55AD-89FC-FA556D7BC554">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>18E6171B-9CFB-34B3-1B22-B10F8C5EFEF1</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B5CFE20-2BD4-04B8-C809-45AD16732854" name="Cuenta_bancaria_PK">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>0130BCB0-2D8F-3CC8-56CD-96734C53C79D</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A574D7D-E799-5D41-1F42-B0644381CBC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

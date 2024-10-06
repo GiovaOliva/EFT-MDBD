@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Academia_Director_FK" directorySegmentName="seg_0" id="4B337374-6F2A-A4AE-4414-39941D0AD6FC">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>FC5A0D07-AF9A-0F45-43E6-86BC366AF569</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<sourcePk>F6B75216-0566-2329-B004-14020BD45145</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BBAEEE39-7A15-6579-3F70-6FD084E8A5B0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>72EEF483-FD8B-4F86-F186-74FD348FF803</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

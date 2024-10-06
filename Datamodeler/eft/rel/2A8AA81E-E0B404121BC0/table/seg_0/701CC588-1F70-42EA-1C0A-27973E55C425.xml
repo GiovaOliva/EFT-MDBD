@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="701CC588-1F70-42EA-1C0A-27973E55C425" name="Profesor">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>2407656B-2109-B597-06B4-146F613F5959</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUT" id="C46DB3B0-3447-E8DB-3FD5-70A3512696FB">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>799F4381-00EA-641C-3BFD-8F6002EF488A</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="70F73944-DD3D-C1C6-534C-5C558CBC7F42">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>1256B2B2-47DD-227C-077E-C1A3846D3B57</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="F8FC2EC6-8296-6829-E99C-2A966338B94B">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>576CDB95-9D11-D77F-6EA3-982B6BA1F0B4</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_contrato" id="FF9C7329-76CA-F0D6-C75B-652DF3E2E06A">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>F7103173-91FD-3BEF-5710-6C57CE8C2D21</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sueldo" id="3C3E11EA-D5B5-F058-A66D-92D004251A4D">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>C2A11D2E-8A00-A3EF-70CC-E948AE775016</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Obligaciones_legales" id="909EB129-167B-6A77-7624-BEF2B50F9DD9">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>16DB8995-E48F-BEF2-08BE-0887B0E926DC</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Cuenta_bancaria" id="9432BE25-6948-9A49-052F-185C18BFECF7">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>E4B8B639-C124-5AD7-9115-C6EE6192344A</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87C59660-DB1F-9CCF-9C23-21F1304D0538" referredColumn="2A574D7D-E799-5D41-1F42-B0644381CBC2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95D222FF-755F-3C47-4148-9B290CEAC8D6" name="Profesor_PK">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>8674811B-ED3C-1802-CC05-49183F20AB9C</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C46DB3B0-3447-E8DB-3FD5-70A3512696FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1019249-3830-289B-3ACB-5C86ACCD314C" name="Profesor_Cuenta_bancaria_FK">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 15:12:59 UTC</createdTime>
+<ownerDesignName>eft</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9432BE25-6948-9A49-052F-185C18BFECF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

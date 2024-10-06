@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Participacion_proyectos_Academia_FK" directorySegmentName="seg_0" id="C8C67629-37E8-5EEB-2FD9-3E516B625F37">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>758238AB-D935-09C4-CC23-11B5523F95F4</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<sourcePk>588EEF51-512E-57E8-2BC9-EF5B863ECCCA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>72EEF483-FD8B-4F86-F186-74FD348FF803</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E32C9682-03AA-926D-7998-75B1F2D25AE7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDE8201E-D0E4-EA49-DA6C-528879209B9A" name="Municipalidad">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>1CE94018-EA65-F7E7-CC69-63104C9CCFDD</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Municipalidad" id="AB4B5C30-D997-0A05-7824-9FC4AE2E14C6">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>24076A35-F3E9-2AB0-09DD-1B07D9E1B225</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="91ED80FE-1D2D-1938-769B-0ED49A656115">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>0FBB12A3-71EE-F5D7-3459-5EBF82CF1B5B</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="D3DFB989-B90B-5DC3-060B-BC3563E157BE">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>D278A2AA-1438-3AD3-B781-1E3CE2777AAF</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region" id="7CA1E6EB-AEEA-1792-69C4-E055EBB667D9">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>1C737B98-E703-DAB1-540A-92B1B7E98BB8</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA6405ED-7AC2-882D-E52A-A5A9199F1F80" name="Municipalidad_PK">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>5CF0B19A-174F-9E5A-8DCB-DDDD47B27C92</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB4B5C30-D997-0A05-7824-9FC4AE2E14C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

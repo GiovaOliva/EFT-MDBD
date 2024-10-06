@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Profesor_Cuenta_bancaria_FK" directorySegmentName="seg_0" id="4B3A4492-AC60-F77A-998B-D9081397D029">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>87C59660-DB1F-9CCF-9C23-21F1304D0538</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<sourcePk>74168906-960D-1922-2DA3-19E19FA833D0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3E9A27B4-A037-C8AE-5EC9-94DBECD7FAB4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4F2B9007-744E-B2D8-BEF6-E4116D368B72</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

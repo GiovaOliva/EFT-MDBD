@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18025BC1-4C49-2B8A-4543-013EC363104D" name="Turno_profesores">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>F2044628-B622-BC56-4841-37E9B8B9E0D9</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Turno" id="56E459BF-177B-8AF4-069C-647E888A5D2B">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>2E523CC5-CCA2-0823-E6B2-67D9F57F0A4C</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUT_Profesor" id="381FFC82-6EB7-6C4D-4BB2-FA3896D06FAF">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>36A388FC-49AC-D35B-FEF2-AFE3A92C52A3</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AA128DA-5492-14A0-B8DA-66D2B331EE6F" referredColumn="C46DB3B0-3447-E8DB-3FD5-70A3512696FB"/>
+</associations>
+</Column>
+<Column name="RUT_Academia" id="F72E998D-2C27-3CC4-D67E-54B616B76DEB">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>CFC1EDDF-B6A7-EAC3-E72E-B42B138E8B9F</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5AD7730-EA20-7846-B33F-16A054BC2A68" referredColumn="764F7641-8CDC-DFCB-9815-4ADAFF57E060"/>
+</associations>
+</Column>
+<Column name="Horario" id="BAD2FF28-C732-1CAC-16C0-E176A67D7910">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>ECD9629F-C9B9-E285-7F89-72B468165ABD</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Duracion" id="1FF299D5-8659-66BB-F882-8B0DC3FF113F">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>61891612-8115-109B-5FD4-1871CDDDEE45</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A312973-0CEB-BE0C-CD6E-A8AF5BB2332A" name="Turno_profesores_PK">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 14:17:35 UTC</createdTime>
+<generatorID>A9E32690-E761-D2D4-86AA-DF3DEE1EFA0C</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56E459BF-177B-8AF4-069C-647E888A5D2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B582081-EDBE-7ACC-54EC-D6132C432F08" name="Turno_profesores_Academia_FK">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 17:56:09 UTC</createdTime>
+<ownerDesignName>eft</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F72E998D-2C27-3CC4-D67E-54B616B76DEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC0EB41A-9AFF-7571-6D44-584A183247A5" name="Turno_profesores_Profesor_FK">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 17:56:21 UTC</createdTime>
+<ownerDesignName>eft</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="381FFC82-6EB7-6C4D-4BB2-FA3896D06FAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

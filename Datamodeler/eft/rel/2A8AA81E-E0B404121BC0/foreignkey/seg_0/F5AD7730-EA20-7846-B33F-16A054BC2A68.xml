@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5AD7730-EA20-7846-B33F-16A054BC2A68" containerWithKeyObject="18025BC1-4C49-2B8A-4543-013EC363104D" localFKIndex="9B582081-EDBE-7ACC-54EC-D6132C432F08" name="Turno_profesores_Academia_FK">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 17:56:09 UTC</createdTime>
+<ownerDesignName>eft</ownerDesignName>
+<referredTableLongName>Academia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5065F2BF-6866-2B5F-3C05-F8F198C573A7</referredTableID>
+<keyObject>8F3BF3C2-9077-82C5-F637-8F11862AAFB1</keyObject>
+<referredKeyID>8F3BF3C2-9077-82C5-F637-8F11862AAFB1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RUT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

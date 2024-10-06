@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Participacion_proyectos_Proyecto_FK" directorySegmentName="seg_0" id="599D9ED8-6E35-8178-93E5-2A8FCFBFB853">
+<createdBy>gio</createdBy>
+<createdTime>2024-10-06 18:28:24 UTC</createdTime>
+<generatorID>D575DEF0-8A8D-C74A-F74E-DFD05DDBF6C6</generatorID>
+<ownerDesignName>eft</ownerDesignName>
+<engineerTo>
+<item key="2A8AA81E-C375-0F8C-DFA2-E0B404121BC0" value="true"/>
+</engineerTo>
+<sourcePk>9D5D2C28-3924-8357-62A8-49F62EFB3AD1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9263800B-AE0C-A338-B876-1D7C4BE3E88B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E32C9682-03AA-926D-7998-75B1F2D25AE7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
